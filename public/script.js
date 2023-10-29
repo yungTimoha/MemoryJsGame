@@ -1,3 +1,18 @@
+import { initializeApp } from 'firebase/app';
+import { getAnalytics } from "firebase/analytics";
+
+const FIREBASE_APP = initializeApp({
+    apiKey: "AIzaSyCtloglcn2O_PkjLWyWiLG42vhfBGmeqOQ",
+    authDomain: "jsprojects-82c0c.firebaseapp.com",
+    projectId: "jsprojects-82c0c",
+    storageBucket: "jsprojects-82c0c.appspot.com",
+    messagingSenderId: "349275246454",
+    appId: "1:349275246454:web:212fd15bdb11779368b457",
+    measurementId: "G-Z56SEFCEWL"
+});
+
+const analytics = getAnalytics(FIREBASE_APP);
+
 const GAME_NODE = document.querySelector('#game-board');
 const VICTORY_TEXT = document.querySelector('#victory-message');
 const START_GAME_BUTTON = document.querySelector('#new-game-button');
