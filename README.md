@@ -1,3 +1,3 @@
 # MemoryJsGame
-Try now:
+<b>Try now:</b>
 https://timfolio.web.app/
